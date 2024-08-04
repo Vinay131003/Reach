@@ -1,0 +1,63 @@
+
+#TopNavDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+    height: fit-content;
+    font-family: Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#LogoDiv {
+    width: 35%;
+    height: fit-content;
+    margin: 5px 0px 0px 55px;
+}
+
+#CenterSpacer {
+    width: 40%
+}
+
+.AuthDiv {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.AuthButton {
+    width: 50%;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.inputLabel {
+    font-size: 14px;
+}
+
+#LoginLink {
+    color: black;
+    font-weight: 650;
+    letter-spacing: .3px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+
+}
+
+#myProfileButton {
+    color: black;
+    font-weight: 650;
+    letter-spacing: .3px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+
+}

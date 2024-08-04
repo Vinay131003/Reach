@@ -1,0 +1,54 @@
+
+h3 {
+    margin: 0px 0px 5px 0px;
+}
+
+h5 {
+    margin: 3px 0px 3px 0px;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#singleProfileDiv {
+    border-radius: 7px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0  0 1px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3); /* with help from mozilla developer network documents for box-shadow */
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 20px 0px 20px;
+    padding: 8px;
+    background-color: rgb(255, 250, 250);
+    font-family: Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#profSummary {
+    font-size: 13px;
+    overflow: scroll;
+    display: inline;
+    padding: 8px 0px 0px 0px;
+}
+
+#reqMeetingButton {
+    margin: 28px 0px 0px 0px;
+    background-color:rgb(21, 129, 44);
+    /* border: 1px solid rgb(21, 129, 44); */
+    border: none;
+    /* with white text and rgb(21, 129, 44) the contrast ratio is 4.99 */
+    border-radius: 7px;
+    padding: 4px 10px 4px 10px;
+    color: white;
+}
+
+#vendorTag {
+    margin: 0px 0px 9px 0px;
+    font-size: 13px;
+
+}

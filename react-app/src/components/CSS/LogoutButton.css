@@ -1,0 +1,15 @@
+
+#logoutButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(172, 17, 30);
+    color: white;
+    /* with white text and rgb(172, 17, 30) the contrast ratio is 7.36 */
+    padding: 4px 0px 4px 0px;
+    margin: 10px 0px 20px 0px;
+    width: 12%;
+}

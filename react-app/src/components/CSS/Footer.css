@@ -1,0 +1,40 @@
+
+.myInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 217, 255);
+}
+
+.infoBox {
+    /* padding: 5px 10px 5px 10px; */
+    margin: 10px 10px 10px 10px;
+    /* border: .5px solid rgb(223, 223, 223); */
+    /* border-radius: 5px; */
+}
+
+#infoTitle {
+    padding: 5px 10px 5px 10px;
+    /* margin: 10px 10px 10px 10px; */
+    /* border: .5px solid rgb(223, 223, 223);
+    border-radius: 5px; */
+}
+
+#footerPlaceholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 217, 255);
+    border-radius: 8px;
+
+    width: fit-content;
+}
